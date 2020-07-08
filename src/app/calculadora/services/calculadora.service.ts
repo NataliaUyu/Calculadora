@@ -13,6 +13,7 @@ export class CalculadoraService {
 
   /* Define as constantes utilizadas 
      para identificar as operações de cálculo */
+
   static readonly SOMA: string = '+';
   static readonly SUBTRACAO: string = '-';
   static readonly DIVISAO: string = '/';
@@ -31,6 +32,7 @@ export class CalculadoraService {
    * @param operacao string Operação a ser executada
    * @return number Resultado da operação
    */
+   
   calcular(num1: number, num2: number, operacao: string): number {
   	let resultado: number; // armazena o resultado da operação
 
